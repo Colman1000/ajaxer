@@ -1,0 +1,28 @@
+ajaxer span{
+    transition: all 0.3s ease;
+    font-weight: bolder;
+    cursor: pointer;
+    animation-name: ajaxerIcon;
+    -webkit-animation-name: ajaxerIcon;
+    -o-animation-name: ajaxerIcon;
+    animation-duration: 10s;
+    -webkit-animation-duration: 10s;
+    -o-animation-duration: 10s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+}
+ajaxer:hover span{
+    /*-webkit-animation: fa-spin 0.7s linear;*/
+    /*animation: fa-spin 0.7s  linear;*/
+    color: #dc2925!important;
+    transform: rotate(90deg) scale(1.15);
+}
+
+@keyframes ajaxerIcon {
+
+
+}
